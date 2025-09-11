@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import SplashScreen from './components/SplashScreen';
-import DatabaseStatus from './components/DatabaseStatus';
 
 export default function Home() {
   const [showSplash, setShowSplash] = useState(true);
@@ -92,7 +91,6 @@ export default function Home() {
   if (showSplash) {
     return (
       <>
-        <DatabaseStatus />
         <SplashScreen onFinish={handleSplashFinish} />
       </>
     );
@@ -100,7 +98,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-      <DatabaseStatus />
       
       {/* Header */}
       <header className="bg-white shadow-sm">
@@ -286,7 +283,7 @@ export default function Home() {
 
               <div>
                 <label htmlFor="accountNumber" className="block text-sm font-medium text-gray-700 mb-2">
-                  EasyPaisa Account Number
+                  Easypaisa Account Number
                 </label>
                 <div className="relative">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -301,7 +298,7 @@ export default function Home() {
                     value={formData.accountNumber}
                     onChange={handleInputChange}
                     className="w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#016630] focus:border-transparent"
-                    placeholder="Enter your Easypais Account number"
+                    placeholder="Enter your easypais account number"
                     required
                   />
                 </div>
@@ -324,7 +321,7 @@ export default function Home() {
                     value={formData.contactNumber}
                     onChange={handleInputChange}
                     className="w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#016630] focus:border-transparent"
-                    placeholder="Enter your Whatsapp number"
+                    placeholder="Enter your whatsapp number"
                     required
                   />
                 </div>
