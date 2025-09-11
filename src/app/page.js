@@ -301,7 +301,7 @@ export default function Home() {
                     value={formData.accountNumber}
                     onChange={handleInputChange}
                     className="w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#016630] focus:border-transparent"
-                    placeholder="Enter your WhatsApp number"
+                    placeholder="Enter your Easypais Account number"
                     required
                   />
                 </div>
@@ -324,7 +324,7 @@ export default function Home() {
                     value={formData.contactNumber}
                     onChange={handleInputChange}
                     className="w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#016630] focus:border-transparent"
-                    placeholder="Enter your contact number"
+                    placeholder="Enter your Whatsapp number"
                     required
                   />
                 </div>
