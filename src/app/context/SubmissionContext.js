@@ -17,7 +17,7 @@ export const SubmissionProvider = ({ children }) => {
 
   const addSubmission = (submissionData) => {
     const newSubmission = {
-      id: Date.now(), // Simple ID generation
+      id: Date.now(), 
       ...submissionData,
       timestamp: new Date().toISOString()
     };
