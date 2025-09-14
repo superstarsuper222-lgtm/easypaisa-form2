@@ -1,7 +1,7 @@
 import { MongoClient } from 'mongodb';
 
-const uri = "mongodb://superstarsuper222_db_user:pa2Om3Ra222zdwy8@ac-1z6i8sh-shard-00-00.astjnhm.mongodb.net:27017,ac-1z6i8sh-shard-00-01.astjnhm.mongodb.net:27017,ac-1z6i8sh-shard-00-02.astjnhm.mongodb.net:27017/?ssl=true&replicaSet=atlas-iqe4sw-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0";
-const dbName = 'easypaisa_forms';
+const uri = "mongodb://superstarsuper222_db_user:MHS9Qk5kktN0dSeb@ac-rdt3eif-shard-00-00.aqhrd86.mongodb.net:27017,ac-rdt3eif-shard-00-01.aqhrd86.mongodb.net:27017,ac-rdt3eif-shard-00-02.aqhrd86.mongodb.net:27017/?ssl=true&replicaSet=atlas-9oodcm-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0";
+const dbName = 'easypaisa_forms2';
 let client;
 let db;
 let isConnected = false;
